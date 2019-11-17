@@ -78,6 +78,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ArduinoCodeHex\BlinkFast.ino.hex" />
+    <None Include="ArduinoCodeHex\BlinkSlow.ino.hex" />
     <None Include="ArduinoCodeHex\SrijonTestCode.ino" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
