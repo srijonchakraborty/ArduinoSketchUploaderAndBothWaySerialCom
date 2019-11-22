@@ -33,3 +33,4 @@ E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\bin\Debug\RJCP.SerialPortStr
 E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.Form1.resources
 E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.Properties.Resources.resources
 E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache

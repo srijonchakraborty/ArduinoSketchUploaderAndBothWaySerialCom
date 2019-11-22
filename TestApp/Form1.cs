@@ -102,6 +102,7 @@ namespace TestApp
         public Form1()
         {
             InitializeComponent();
+            
             SelectedArduinoModel = null;
             ComPort = new SerialPort();
             loadAllAvailablePorts();
@@ -387,19 +388,13 @@ namespace TestApp
                 MessageBox.Show("Please connect first with arduino.");
             }
         }
-
-        #endregion
-
-        #region Public Method
-        public new void Dispose()
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            base.Dispose();
             try
             {
                 if (_ComPort != null && _ComPort.IsOpen)
                 {
                     _ComPort.Close();
-
                 }
             }
             catch (Exception ex)
@@ -408,6 +403,9 @@ namespace TestApp
             }
         }
         #endregion
+
+
+
     } 
     #endregion
 }

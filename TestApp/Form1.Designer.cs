@@ -238,6 +238,7 @@
             this.Controls.Add(this.burnCodeOne);
             this.Name = "Form1";
             this.Text = "Arduino Code Uploader and Response Tester";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
