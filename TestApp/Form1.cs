@@ -223,6 +223,11 @@ namespace TestApp
         {
             try
             {
+                if (_ComPort != null && _ComPort.IsOpen)
+                {
+                    MessageBox.Show("Please disconnect first from arduino.");
+                    return;
+                }
                 if (string.IsNullOrEmpty(textBoxFilePath.Text) || string.IsNullOrWhiteSpace(SelectedPortName))
                 {
                     MessageBox.Show("Please Select File Path.");
@@ -370,12 +375,16 @@ namespace TestApp
         {
             if(string.IsNullOrEmpty(txtBoxSendData.Text)|| string.IsNullOrWhiteSpace(txtBoxSendData.Text))
             {
-                MessageBox.Show("Please Type Something to Send.");
+                MessageBox.Show("Please type something to send.");
                 return;
             }
             if (_ComPort != null && _ComPort.IsOpen)
             {
                 _ComPort.WriteLine(txtBoxSendData.Text);
+            }
+            else
+            {
+                MessageBox.Show("Please connect first with arduino.");
             }
         }
 
