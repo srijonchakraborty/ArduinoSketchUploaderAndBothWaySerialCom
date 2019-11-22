@@ -399,6 +399,7 @@ namespace TestApp
                 if (_ComPort != null && _ComPort.IsOpen)
                 {
                     _ComPort.Close();
+
                 }
             }
             catch (Exception ex)
