@@ -24,7 +24,7 @@ using System.Windows.Forms;
 namespace TestApp
 {
     #region Form1 :class
-    public partial class Form1 : Form
+    public partial class Form1 : Form,IDisposable
     {
         #region Properties
         
@@ -248,7 +248,8 @@ namespace TestApp
                     });
 
                 uploader.UploadSketch();
-                
+                MessageBox.Show("Code Upload Completed.");
+
             }
             catch (Exception ex)
             {
@@ -312,8 +313,11 @@ namespace TestApp
                 MessageBox.Show("Please Select a Baud Rate.");
                 return;
             }
+            _ComPort.DtrEnable = true;
+            _ComPort.RtsEnable = true;
             _ComPort.PortName = SelectedPortName;
             _ComPort.BaudRate = SelectedBaudRate;
+            //_ComPort.DS
             _ComPort.DataReceived += dataReceived_Completed;
             try
             {
@@ -375,6 +379,24 @@ namespace TestApp
             }
         }
 
+        #endregion
+
+        #region Public Method
+        public new void Dispose()
+        {
+            base.Dispose();
+            try
+            {
+                if (_ComPort != null && _ComPort.IsOpen)
+                {
+                    _ComPort.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
         #endregion
     } 
     #endregion

@@ -22,3 +22,15 @@ C:\Users\Srijon-PC\Downloads\source\TestApp\obj\Debug\TestApp.csprojResolveAssem
 C:\Users\Srijon-PC\Downloads\source\TestApp\obj\Debug\TestApp.Form1.resources
 C:\Users\Srijon-PC\Downloads\source\TestApp\obj\Debug\TestApp.Properties.Resources.resources
 C:\Users\Srijon-PC\Downloads\source\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\bin\Debug\TestApp.exe.config
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.exe
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.pdb
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\bin\Debug\TestApp.exe
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\bin\Debug\TestApp.pdb
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\bin\Debug\ArduinoUploader.dll
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\bin\Debug\IntelHexFormatReader.dll
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\bin\Debug\RJCP.SerialPortStream.dll
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.Form1.resources
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+E:\ArduinoSketchUploaderAndBothWaySerialCom\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
