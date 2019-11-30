@@ -3,7 +3,7 @@
 |	This code was written by Srijon Chakraborty								    |
 |	Main source code link on https://github.com/srijonchakro			        |
 |	All my source codes are available on http://srijon.softallybd.com           |
-|	C# Arduino Code Uploader		                                            |
+|	C# Arduino Code Uploader And Serial Read Write	                                            |
 |	LinkedIn https://bd.linkedin.com/in/srijon-chakraborty-0ab7aba7				|
 |-------------------------------------------------------------------------------|
 */
